@@ -1,19 +1,22 @@
 *{
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
 }
 body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: hsl(240,2%,89%);
+    background-color:hsl(210, 64%, 91%) ;
     min-height: 100vh;
 }
 section{
     width: 260px;
-    min-height: 470px;
-    border-radius: 5px;
+    min-height: 420px;
     background-color: white;
+    border-radius: 4%;
 }
 .QR-code>img{
     border-radius: 10px;
@@ -25,18 +28,11 @@ section{
 .QR-code p{
     text-align: center;
     font-weight: 300;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Lexend Deca', sans-serif;
 }
 .QR-code h3{
     font-weight: 1000;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Outfit', sans-serif;
 }
-.attribution{
-    text-align: center;
-}
-.attribution a{
-    text-decoration: none;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-}
+
